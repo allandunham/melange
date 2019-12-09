@@ -1,6 +1,8 @@
 #!/bin/bash
 
-mkdir bin
+mkdir -p bin
+mkdir -p output
+
 cd steg
 make
 cp ./steg ../bin

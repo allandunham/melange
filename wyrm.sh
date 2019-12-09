@@ -246,7 +246,7 @@ then
    # image field.
    #
    echo $NEWTRANS | jq '.[0].payload.image = '"\"$TMP_UID\""' ' > $TMP_FILE
-   cat $TMP_FILE
+   #cat $TMP_FILE
 
    
    #
