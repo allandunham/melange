@@ -22,9 +22,12 @@ Project for the 2019 Dragonchain hackathon
 # This program was developed and tested on
 # Ubuntu 16.04
 #
+# Instructions assume you already have a
+# Dragonchain level-1 node setup with credentials 
+# on your machine.
 #
-# All instructions are relative to the directory
-# named "melange"
+# All instruction paths are relative to the
+# directory named "melange"
 #
 #
 # Step 1 - to make, from command line run:
