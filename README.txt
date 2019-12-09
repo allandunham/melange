@@ -13,6 +13,8 @@ Project for the 2019 Dragonchain hackathon
 #       heavily modified, but provided an excellent
 #       starting point for my own steganography
 #       program
+#   Joe Roets:
+#     - Who provided the idea for the project!
 #
 
 
@@ -21,6 +23,8 @@ Project for the 2019 Dragonchain hackathon
 # NOTE:
 # This program was developed and tested on
 # Ubuntu 16.04
+#
+# Currently only works with .PNG files
 #
 # Instructions assume you already have a
 # Dragonchain level-1 node setup with credentials 
