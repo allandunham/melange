@@ -62,11 +62,11 @@ Project for the 2019 Dragonchain hackathon
 # If this is a "new" image, having no valid JSON
 # info, then the image itself, with the JSON block
 # will be converted to base64 format and uploaded
-# to the chainto the chain.
+# to the chain.
 #
 # If the image already has a valid JSON block, then
 # you will be added to the list of "sharers" and 
-# a this will be recorded on the chain.
+# this will be recorded on the chain.
 #
 #
 
