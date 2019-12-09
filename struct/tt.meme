@@ -1,0 +1,1 @@
+dctl tt c "meme" -c '[{"fieldName":"img_id","path":"steg.img_id","type":"text","options":{"sortable":true}},{"fieldName":"sharer","path":"steg.sharer","type":"text","options":{"sortable":true}}]'

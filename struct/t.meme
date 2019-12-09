@@ -1,0 +1,19 @@
+[{
+  "transactionType": "meme",
+  "tag": ".PNG",
+  "payload": {
+    "steg": {
+      "img_id": "unique-image-id ",
+      "sharer": "sharer-address",
+      "message": "extra space to store a hidden message in the meme image"
+    },
+    "shares": [
+      "list of the chain of addresses that have shared this meme"
+    ],
+    "metadata": {
+      "version": "1.0",
+      "algo": "LSB"
+    },
+    "image": "base64 encoded .png image file, NOTE: this is left empty in subsequent 'shares' of the OP"
+  }
+}]
