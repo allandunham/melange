@@ -189,7 +189,7 @@ then
    # No embedded JSON was found, or JSON had invalid format
    # Proceed to resubmit as a new meme and then exit the script.
    #
-   echo "This meme is not yet on-chain, so add let's add it to the chain!"
+   echo "This meme is not yet on-chain, so let's add it to the chain!"
 
 
    #
@@ -285,6 +285,7 @@ fi
 # be updated.
 #*******************************************************************************
 #*******************************************************************************
+echo "IMG_ID found in file, your address will be added to the list of sharers"
 
 
 #
@@ -344,7 +345,6 @@ echo "IMAGE=$IMAGE"
 #
 TMPFILE=$(python -c 'import uuid; print(uuid.uuid1())' )
 TMPFILE="./output/$TMPFILE.txt"
-echo $TMPFILE
 
 
 #
@@ -358,7 +358,7 @@ cat ./struct/t.meme | jq '.[0].payload.steg.img_id = '$IMG_ID' | .[0].payload.st
 #
 STEGONLY=$(cat $TMPFILE | jq '.[0].payload.steg')
 ./bin/steg -e $OUTFILE -s "$STEGONLY"
-echo $STEGONLY
+#echo $STEGONLY
 
 
 #
